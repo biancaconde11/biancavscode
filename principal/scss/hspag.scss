@@ -120,7 +120,7 @@
     width: 90%;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
         "uno dos tres cuatro"
         "cinco seis siete ocho"
@@ -132,65 +132,57 @@
     justify-content: center;
     align-items: center;
 }
+@mixin imagenGaleria ($paddingRight, $backgroundColor){
+    padding-right: $paddingRight;
+    background-color: $backgroundColor;
+}
 .imagenUno{
     grid-area: uno;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenDos{
     grid-area: dos;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenTres{
     grid-area: tres;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenCuatro{
     grid-area: cuatro;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenCinco{
     grid-area: cinco;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenSeis{
     grid-area: seis;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenSiete{
     grid-area: siete;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenOcho{
     grid-area: ocho;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenNueve{
     grid-area: nueve;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenDiez{
     grid-area: diez;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenOnce{
     grid-area: once;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .imagenDoce{
     grid-area: doce;
-    padding-right: 10px;
-    background-color: lightseagreen;
+    @include imagenGaleria (10px, lightseagreen)
 }
 .img{
     justify-content: center;
