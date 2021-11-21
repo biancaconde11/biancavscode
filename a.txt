@@ -1,6 +1,0 @@
-<section class="center">
-            <h2>One Direction</h2>
-            <div class="inline">
-                <a href="secciones-html/oneDirection.html" title="One Direccion"><img src="img/one-direction-tapa.jpg" width="250px" title="tapa one direccion"></a>
-            </div>
-        </section>

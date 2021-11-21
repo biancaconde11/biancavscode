@@ -58,15 +58,15 @@
     <hr>
     <main class="container">
         <div class="row">
-            <div class="col-6 p-3 border bg-light">
+            <div class="col-md-6 col-sm-12 p-3 border bg-light">
                 <h3>Los inicios del cantante</h3>
                 <p>Harry Edward Styles, conocido en el mundo de la música como Harry Styles, es un cantante y compositor británico, reconocido por ser uno de los integrantes de la banda One Direction. Nació en Holmes Chapel, Cheshire, Inglaterra el 1 de febrero de 1994, y es hijo de Des Styles y Anne Cox. Harry Styles estudió en la Holmes Chapel Comprehensive School, donde creó su propia banda musical junto a 3 compañeros de escuela, a la cual llamó White Eskimo. En el año 2009, participaron en la “Batalla de Bandas”, donde gracias a sus excelentes presentaciones fueron ganadores.</p>
             </div>
-            <div class="col-3 p-3 border bg-light">
+            <div class="col-md-3 col-sm-6 p-3 border bg-light">
                 <img src="img/inicio1.jpg" width="120px" alt="imagen 1">
                 <img src="img/inicio2.jpg" width="120px" alt="imagen 2">
             </div>
-            <div class="col-3 p-3 border bg-light">
+            <div class="col-md-3 col-sm-6 p-3 border bg-light">
                 <img src="img/inicio3.jpg" width="120px" alt="imagen 3">
                 <img src="img/inicio4.jpg" width="120px" alt="imagen 4">
             </div>
@@ -81,30 +81,74 @@
               <div class="fonts">
                   <p><em>Este gran cantante y compositor consta de 2 albumes "Harry Styles 1" y "Fine Line", cada uno de ellos cuenta de 1 gira mundial para promocionar el álbum "Live on Tour" y "Love on Tour". Pero él no siempre fue solista, él empezó su carrera profesional gracias a la famosa banda One Direction, la cuál fue una hermosa etapa en la vida de Harry, y que, también lo ayudó a crecer demasiado como artista.</em> </p>
               </div>
+          </section>
+          <h3>Álbumes</h3>
           <section>
-          <h2>Álbumes</h2>
-              <div class="inline">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner center">
+                <div class="carousel-item active">
                   <a href="secciones-html/seccionHs1.html" title="HS1"> <img src="img/hs1-tapa.jpg" width="250px" alt="hs1"></a>
-                  <p><strong> Harry Styles 1  </strong> (12/5/2017)</p>
-              </div>
-              <div class="inline">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Harry Styles 1</h5>
+                    <p>(12/5/2017)</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
                   <a href="secciones-html/seccionFineLine.html" title="Fine Line"> <img src="img/fine-line-tapa.jpg" alt="fine line" width="250px"></a>
-                  <p><strong> Fine Line</strong> (13/12/2019)</p>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Fine Line</h5>
+                    <p>(13/12/2019)</p>
+                  </div>
+                </div>
               </div>
-          </section>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </section>
           <hr>
-          <section class="center">
-            <h2>Tours</h2>
-            <div class="inline">
-              <a href="secciones-html/liveOnTour.html" title="Live On Tour"><img src="img/harry-live-on-tour.jpg" width="250px" alt="tour hs1"></a>
-              <p><strong> Harry Styles Live on Tour</strong></p>
+        <h3>Tours</h3>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner center">
+                <div class="carousel-item active">
+                  <a href="secciones-html/liveOnTour.html" title="Live On Tour"><img src="img/harry-live-on-tour.jpg" width="250px" alt="tour hs1"></a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Live On Tour</h5>
+                    <p>Harry Styles (HS1)</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <a href="secciones-html/loveOnTour.html" title="Love On Tour"><img src="img/IMG-2394.JPG" width="250px" alt="Tour fine line"></a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Love On Tour</h5>
+                    <p>Harry Styles (Fine Line)</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="inline">
-              <a href="secciones-html/loveOnTour.html" title="Love On Tour"><img src="img/IMG-2394.JPG" width="250px" alt="Tour fine line"></a>
-              <p><strong> Harry Styles Love on Tour</strong></p>
-            </div>
-          </section>
-        <hr>
+        </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
